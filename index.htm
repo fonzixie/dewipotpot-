@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>For Dewi 💜</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #e6ccff, #ffffff);
-      overflow: hidden;
+      background: linear-gradient(135deg, #f4e6ff, #e6ccff);
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       height: 100vh;
-      position: relative;
+      overflow: hidden;
     }
 
     .floating-heart {
       position: absolute;
-      width: 20px;
-      height: 20px;
-      background-color: #ff66cc;
+      width: 30px;
+      height: 30px;
+      background: #ff66cc;
       transform: rotate(45deg);
-      animation: float 6s infinite ease-in-out;
-      opacity: 0.7;
+      animation: float 6s infinite ease-in;
+      opacity: 0.6;
     }
 
     .floating-heart::before,
     .floating-heart::after {
-      content: "";
+      content: '';
       position: absolute;
-      width: 20px;
-      height: 20px;
-      background-color: #ff66cc;
+      width: 30px;
+      height: 30px;
+      background: #ff66cc;
       border-radius: 50%;
     }
 
@@ -87,7 +86,10 @@
   <div class="floating-heart" style="top: 95%; left: 50%; animation-delay: 2s;"></div>
   <div class="floating-heart" style="top: 100%; left: 80%; animation-delay: 4s;"></div>
 
-  <img src="your-photo.jpg" alt="Your Photo">
-  <a class="clickable" href="message.html">Click me, Dewi 💖</a>
+  
+  <img src="dewi.jpg" alt="Your Photo" class="photo" />
+
+  
+  <a class="clickable" href="message.html">Click me, bebushi</a>
 </body>
 </html>
